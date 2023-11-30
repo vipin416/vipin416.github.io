@@ -1,0 +1,107 @@
+body {
+  background-color: #fae6f3; /* Light Purple */
+  font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+  text-align: center;
+  margin-top: 200px;
+  
+}
+
+form {
+  display: inline-block;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.circle-container {
+  display: inline-block;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.profile-picture {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.birthday-message {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.paragraph {
+  margin-top: 20px;
+}
+
+.slideshow-container {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+  border: 6px solid #ddd; /* Add border style */
+  border-radius: 8px; /* Optional: Add border radius for a rounded look */
+  overflow: hidden;
+  border-color: aqua;
+}
+
+.mySlides {
+  display: none;
+  width: 100%;
+  
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-style:italic;
+}
+
+
